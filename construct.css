@@ -227,11 +227,11 @@
   }
 
   .button_decorate1 {
-    grid-template-columns: repeat(2, 1fr); /* only 2 per row */
+    grid-template-columns: repeat(5, 1fr); /* only 2 per row */
   }
 
   .button_decorate2 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   button, .decoration1, .decoration2 {
