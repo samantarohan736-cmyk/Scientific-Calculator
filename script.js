@@ -37,24 +37,7 @@ function parseExpression(expr) {
 
   return expr;
 }
-// Parse expression before eval
-// function parseExpression(expr) {
-//   return expr
-//     .replace(/sin\(/g, "Math.sin(")
-//     .replace(/cos\(/g, "Math.cos(")
-//     .replace(/tan\(/g, "Math.tan(")
-//     .replace(/cot\(/g, "(1/Math.tan(") 
-//     .replace(/cosec\(/g, "(1/Math.sin(")
-//     .replace(/√/g, "Math.sqrt")
-//     .replace(/∛/g, "Math.cbrt")
-//     .replace(/log\(/g, "Math.log10(")   // base-10 log
-//     .replace(/ln\(/g, "Math.log(")      // natural log
-//     .replace(/exp\(/g, "Math.exp(")     // e^x
-//     .replace(/π/g, "Math.PI")
-//     .replace(/rnd/g, "Math.floor(Math.random()*100)")
-//     .replace(/(\d+)!/g, (_, num) => factorial(Number(num)))
-//     .replace(/÷/g, "/"); // if any leftover
-// }
+
 
 // Button clicks
 buttons.forEach(btn => {
